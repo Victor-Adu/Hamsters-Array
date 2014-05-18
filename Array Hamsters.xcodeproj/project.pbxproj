@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B5018281918740600D45003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5018271918740600D45003 /* Foundation.framework */; };
+		5B50182A1918740600D45003 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5018291918740600D45003 /* CoreGraphics.framework */; };
+		5B50182C1918740600D45003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B50182B1918740600D45003 /* UIKit.framework */; };
+		5B5018321918740600D45003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B5018301918740600D45003 /* InfoPlist.strings */; };
+		5B5018341918740600D45003 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5018331918740600D45003 /* main.m */; };
+		5B5018381918740600D45003 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5018371918740600D45003 /* AppDelegate.m */; };
+		5B50183B1918740600D45003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5018391918740600D45003 /* Main.storyboard */; };
+		5B50183E1918740600D45003 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B50183D1918740600D45003 /* ViewController.m */; };
+		5B5018401918740600D45003 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B50183F1918740600D45003 /* Images.xcassets */; };
+		5B5018471918740600D45003 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5018461918740600D45003 /* XCTest.framework */; };
+		5B5018481918740600D45003 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B5018271918740600D45003 /* Foundation.framework */; };
+		5B5018491918740600D45003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B50182B1918740600D45003 /* UIKit.framework */; };
+		5B5018511918740600D45003 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B50184F1918740600D45003 /* InfoPlist.strings */; };
+		5B5018531918740600D45003 /* Array_HamstersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5018521918740600D45003 /* Array_HamstersTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B50184A1918740600D45003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B50181C1918740600D45003 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B5018231918740600D45003;
+			remoteInfo = "Array Hamsters";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B5018241918740600D45003 /* Array Hamsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Array Hamsters.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5018271918740600D45003 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B5018291918740600D45003 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5B50182B1918740600D45003 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5B50182F1918740600D45003 /* Array Hamsters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Array Hamsters-Info.plist"; sourceTree = "<group>"; };
+		5B5018311918740600D45003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B5018331918740600D45003 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B5018351918740600D45003 /* Array Hamsters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Array Hamsters-Prefix.pch"; sourceTree = "<group>"; };
+		5B5018361918740600D45003 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B5018371918740600D45003 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B50183A1918740600D45003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B50183C1918740600D45003 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B50183D1918740600D45003 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B50183F1918740600D45003 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B5018451918740600D45003 /* Array HamstersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Array HamstersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5018461918740600D45003 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B50184E1918740600D45003 /* Array HamstersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Array HamstersTests-Info.plist"; sourceTree = "<group>"; };
+		5B5018501918740600D45003 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B5018521918740600D45003 /* Array_HamstersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Array_HamstersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B5018211918740600D45003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B50182A1918740600D45003 /* CoreGraphics.framework in Frameworks */,
+				5B50182C1918740600D45003 /* UIKit.framework in Frameworks */,
+				5B5018281918740600D45003 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5018421918740600D45003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5018471918740600D45003 /* XCTest.framework in Frameworks */,
+				5B5018491918740600D45003 /* UIKit.framework in Frameworks */,
+				5B5018481918740600D45003 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B50181B1918740600D45003 = {
+			isa = PBXGroup;
+			children = (
+				5B50182D1918740600D45003 /* Array Hamsters */,
+				5B50184C1918740600D45003 /* Array HamstersTests */,
+				5B5018261918740600D45003 /* Frameworks */,
+				5B5018251918740600D45003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B5018251918740600D45003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B5018241918740600D45003 /* Array Hamsters.app */,
+				5B5018451918740600D45003 /* Array HamstersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B5018261918740600D45003 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B5018271918740600D45003 /* Foundation.framework */,
+				5B5018291918740600D45003 /* CoreGraphics.framework */,
+				5B50182B1918740600D45003 /* UIKit.framework */,
+				5B5018461918740600D45003 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B50182D1918740600D45003 /* Array Hamsters */ = {
+			isa = PBXGroup;
+			children = (
+				5B5018361918740600D45003 /* AppDelegate.h */,
+				5B5018371918740600D45003 /* AppDelegate.m */,
+				5B5018391918740600D45003 /* Main.storyboard */,
+				5B50183C1918740600D45003 /* ViewController.h */,
+				5B50183D1918740600D45003 /* ViewController.m */,
+				5B50183F1918740600D45003 /* Images.xcassets */,
+				5B50182E1918740600D45003 /* Supporting Files */,
+			);
+			path = "Array Hamsters";
+			sourceTree = "<group>";
+		};
+		5B50182E1918740600D45003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B50182F1918740600D45003 /* Array Hamsters-Info.plist */,
+				5B5018301918740600D45003 /* InfoPlist.strings */,
+				5B5018331918740600D45003 /* main.m */,
+				5B5018351918740600D45003 /* Array Hamsters-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B50184C1918740600D45003 /* Array HamstersTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B5018521918740600D45003 /* Array_HamstersTests.m */,
+				5B50184D1918740600D45003 /* Supporting Files */,
+			);
+			path = "Array HamstersTests";
+			sourceTree = "<group>";
+		};
+		5B50184D1918740600D45003 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B50184E1918740600D45003 /* Array HamstersTests-Info.plist */,
+				5B50184F1918740600D45003 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B5018231918740600D45003 /* Array Hamsters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5018561918740600D45003 /* Build configuration list for PBXNativeTarget "Array Hamsters" */;
+			buildPhases = (
+				5B5018201918740600D45003 /* Sources */,
+				5B5018211918740600D45003 /* Frameworks */,
+				5B5018221918740600D45003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Array Hamsters";
+			productName = "Array Hamsters";
+			productReference = 5B5018241918740600D45003 /* Array Hamsters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B5018441918740600D45003 /* Array HamstersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B5018591918740600D45003 /* Build configuration list for PBXNativeTarget "Array HamstersTests" */;
+			buildPhases = (
+				5B5018411918740600D45003 /* Sources */,
+				5B5018421918740600D45003 /* Frameworks */,
+				5B5018431918740600D45003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B50184B1918740600D45003 /* PBXTargetDependency */,
+			);
+			name = "Array HamstersTests";
+			productName = "Array HamstersTests";
+			productReference = 5B5018451918740600D45003 /* Array HamstersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B50181C1918740600D45003 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Victor  Adu";
+				TargetAttributes = {
+					5B5018441918740600D45003 = {
+						TestTargetID = 5B5018231918740600D45003;
+					};
+				};
+			};
+			buildConfigurationList = 5B50181F1918740600D45003 /* Build configuration list for PBXProject "Array Hamsters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B50181B1918740600D45003;
+			productRefGroup = 5B5018251918740600D45003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B5018231918740600D45003 /* Array Hamsters */,
+				5B5018441918740600D45003 /* Array HamstersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B5018221918740600D45003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5018401918740600D45003 /* Images.xcassets in Resources */,
+				5B5018321918740600D45003 /* InfoPlist.strings in Resources */,
+				5B50183B1918740600D45003 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5018431918740600D45003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5018511918740600D45003 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B5018201918740600D45003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B50183E1918740600D45003 /* ViewController.m in Sources */,
+				5B5018381918740600D45003 /* AppDelegate.m in Sources */,
+				5B5018341918740600D45003 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B5018411918740600D45003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5018531918740600D45003 /* Array_HamstersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B50184B1918740600D45003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B5018231918740600D45003 /* Array Hamsters */;
+			targetProxy = 5B50184A1918740600D45003 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B5018301918740600D45003 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5018311918740600D45003 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5B5018391918740600D45003 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B50183A1918740600D45003 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B50184F1918740600D45003 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B5018501918740600D45003 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B5018541918740600D45003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B5018551918740600D45003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B5018571918740600D45003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Array Hamsters/Array Hamsters-Prefix.pch";
+				INFOPLIST_FILE = "Array Hamsters/Array Hamsters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B5018581918740600D45003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Array Hamsters/Array Hamsters-Prefix.pch";
+				INFOPLIST_FILE = "Array Hamsters/Array Hamsters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5B50185A1918740600D45003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Array Hamsters.app/Array Hamsters";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Array Hamsters/Array Hamsters-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Array HamstersTests/Array HamstersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B50185B1918740600D45003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Array Hamsters.app/Array Hamsters";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Array Hamsters/Array Hamsters-Prefix.pch";
+				INFOPLIST_FILE = "Array HamstersTests/Array HamstersTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B50181F1918740600D45003 /* Build configuration list for PBXProject "Array Hamsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5018541918740600D45003 /* Debug */,
+				5B5018551918740600D45003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B5018561918740600D45003 /* Build configuration list for PBXNativeTarget "Array Hamsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5018571918740600D45003 /* Debug */,
+				5B5018581918740600D45003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B5018591918740600D45003 /* Build configuration list for PBXNativeTarget "Array HamstersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B50185A1918740600D45003 /* Debug */,
+				5B50185B1918740600D45003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B50181C1918740600D45003 /* Project object */;
+}
